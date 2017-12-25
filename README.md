@@ -38,7 +38,6 @@ The summary of the files and folders int repo is provided in the table below:
 | helper.py                 | It contains various auxiliary functions used in the main file for images pre and post       |
 |                           | processing.                                                                                 |
 | project_tests.py          | It contains several auxiliary functions for the image classifier.                           |
-|                           |                                                                                             |
 
 Note: The repository does not contain any training images. You have to download the image datasetsplace them in appropriate directories on your own.
 
@@ -81,11 +80,11 @@ Hyperparameters were chosen by the try-and-error process. The hyperparameters us
 | batch_size:                | 2     |
 | random_normal_initializer: | 1e-3  |
 | l2_regularizer:            | 1e-5  |
-|                            |       |
 
 ### Results
 
-The last epoch loss mean and standard deviation were:
+The initial and final measurements of every 5 epochs were:
+
  * 5 Epoch => Initial: 0.694 Last: 0.110
  * 10 Epoch => Initial: 0.054 Last: 0.040
  * 15 Epoch => Initial: 0.042 Last: 0.035
@@ -103,7 +102,6 @@ Below are a few sample images from the output of the fully convolutional network
 | ![Final score][image10] | ![Final score][image4] |
 | ![Final score][image11] | ![Final score][image5] |
 | ![Final score][image12] | ![Final score][image6] |
-|                         |                        |
 
 ## Conclusion
 
