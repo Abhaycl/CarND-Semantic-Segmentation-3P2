@@ -6,12 +6,12 @@ The goal of this project is based on the architecture of the image classifier VG
 
 [//]: # (Image References)
 
-[image1]: /runs/1514034577.2019193/uu_000001.png "Sample final score"
-[image2]: /runs/1514034577.2019193/uu_000017.png "Sample final score"
-[image3]: /runs/1514034577.2019193/um_000003.png "Sample final score"
-[image4]: /runs/1514034577.2019193/um_000017.png "Sample final score"
-[image5]: /runs/1514034577.2019193/umm_000008.png "Sample final score"
-[image6]: /runs/1514034577.2019193/umm_000024.png "Sample final score"
+[image1]: /images/ouu_000001.png "Sample final score"
+[image2]: /images/ouu_000017.png "Sample final score"
+[image3]: /images/oum_000003.png "Sample final score"
+[image4]: /images/oum_000017.png "Sample final score"
+[image5]: /images/oumm_000008.png "Sample final score"
+[image6]: /images/oumm_000024.png "Sample final score"
 [image7]: /images/uu_000001.png "Sample final score"
 [image8]: /images/uu_000017.png "Sample final score"
 [image9]: /images/um_000003.png "Sample final score"
@@ -85,7 +85,11 @@ Hyperparameters were chosen by the try-and-error process. The hyperparameters us
 
 ### Results
 
-The sensor fusion data received from the simulator in each iteration is parsed and trajectories for each of the other cars on the road are generated. These trajectories match the duration and interval of the ego car's trajectories generated for each available state and are used to determine a best trajectory for the ego car.
+The last epoch loss mean and standard deviation were:
+ * 5 Epoch => Initial: 0.694 Last: 0.110
+ * 10 Epoch => Initial: 0.054 Last: 0.040
+ * 15 Epoch => Initial: 0.042 Last: 0.035
+ * 20 Epoch => Initial: 0.035 Last: 0.039
 
 ### Samples
 
